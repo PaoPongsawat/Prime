@@ -43,6 +43,26 @@ class ViewController: UIViewController {
                 // Check Prime
                 if intNumberFromTextField != 1 {
                     // Not 1
+                    
+                    var intMyNumber = 2
+                    var bolPrime: Bool = true
+                    
+                    while intMyNumber < intNumberFromTextField {
+                        if intNumberFromTextField % intMyNumber == 0 {
+                            bolPrime = false
+                        }
+                        
+                        
+                        intMyNumber += 1
+                    }
+                    
+                    if bolPrime {
+                        resultLable.text = "\(intNumberFromTextField)"+strAlerBePrime
+                    }else{
+                        resultLable.text="\(intNumberFromTextField)"+strAlerBePrime
+                    }
+                    
+                    
                 }else{
                     resultLable.text="\(intNumberFromTextField)"+strAlerNotPrime
                 }
