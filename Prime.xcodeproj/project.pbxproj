@@ -15,6 +15,7 @@
 		0FC00A5F1F298EF100EAAA21 /* PrimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC00A5E1F298EF100EAAA21 /* PrimeTests.swift */; };
 		0FC00A6A1F298EF200EAAA21 /* PrimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC00A691F298EF200EAAA21 /* PrimeUITests.swift */; };
 		0FC00A781F2991F800EAAA21 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FC00A771F2991F800EAAA21 /* img.jpg */; };
+		0FC00A7A1F29A09300EAAA21 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0FC00A791F29A09300EAAA21 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0FC00A691F298EF200EAAA21 /* PrimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeUITests.swift; sourceTree = "<group>"; };
 		0FC00A6B1F298EF200EAAA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC00A771F2991F800EAAA21 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img.jpg; path = ../../../../Desktop/img.jpg; sourceTree = "<group>"; };
+		0FC00A791F29A09300EAAA21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0FC00A491F298EF100EAAA21 /* AppDelegate.swift */,
 				0FC00A4B1F298EF100EAAA21 /* ViewController.swift */,
 				0FC00A4D1F298EF100EAAA21 /* Main.storyboard */,
+				0FC00A791F29A09300EAAA21 /* README.md */,
 				0FC00A501F298EF100EAAA21 /* Assets.xcassets */,
 				0FC00A521F298EF100EAAA21 /* LaunchScreen.storyboard */,
 				0FC00A551F298EF100EAAA21 /* Info.plist */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC00A7A1F29A09300EAAA21 /* README.md in Sources */,
 				0FC00A4C1F298EF100EAAA21 /* ViewController.swift in Sources */,
 				0FC00A4A1F298EF100EAAA21 /* AppDelegate.swift in Sources */,
 			);
