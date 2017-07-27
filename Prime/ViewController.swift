@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     //Impricit
-    let strAlertHaveSpace = "Please Fill Number"
-    let strAlerNumberFalse = "Palase Number Onry"
+    let strAlertHaveSpace = " Please Fill Number"
+    let strAlerNumberFalse = " Palase Number Only"
+    let strAlerNotPrime = " not Prime"
+    let strAlerBePrime = " is Prime"
+    
     
     
     
@@ -36,6 +39,15 @@ class ViewController: UIViewController {
             
             if let intNumberFromTextField = Int(strNameberFromTextField) {
                 print("Thid is Number")
+                
+                // Check Prime
+                if intNumberFromTextField != 1 {
+                    // Not 1
+                }else{
+                    resultLable.text="\(intNumberFromTextField)"+strAlerNotPrime
+                }
+                
+                
                 
             }else{
                 print("This is Arical")
